@@ -1,5 +1,5 @@
- int trigger = 9;           // declaramos la palabra trigger como un tipo entero y al mismo tiempo reemplaza al pin 9
- int echo = 8;           // declaramos la palabra echo como un tipo entero y al mismo tiempo reemplaza al pin 8
+ int trigger = 17;           // declaramos la palabra trigger como un tipo entero y al mismo tiempo reemplaza al pin 9
+ int echo = 16;           // declaramos la palabra echo como un tipo entero y al mismo tiempo reemplaza al pin 8
  float tiempo_de_espera,distancia; // creamos una variable de fotante; es decir, nos puede dar resultados en decimales.
 void setup() {
   Serial.begin (9600);   // establemos la comucicacion serial
